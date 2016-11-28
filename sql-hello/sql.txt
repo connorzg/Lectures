@@ -1,0 +1,33 @@
+CREATE TABLE instructors(
+  ID SERIAL PRIMARY KEY,
+  NAME VARCHAR NOT NULL,
+  WEBSITE CHAR(50)
+);
+
+CREATE TABLE students(
+  ID SERIAL PRIMARY KEY NOT NULL,
+  NAME VARCHAR NOT NULL,
+  AGE INT,
+  ADDRESS TEXT
+);
+
+-- CRUD
+INSERT
+SELECT
+UPDATE
+DELETE
+
+
+INSERT INTO table_name VALUES (column_values)
+
+INSERT INTO students VALUES (1, 'Connor Garber', 20);
+
+SELECT column_name FROM table_name
+
+SELECT * FROM students
+
+SELECT name FROM students WHERE age > 50;
+
+ORDER BY age DESC;
+
+WHERE name LIKE 'J%' LIMIT 3 OFFSET 2;

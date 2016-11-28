@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>OpenWeather</title>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+</head>
+
+<body>
+  <div class="container">
+    <h1>OpenWeather API</h1>
+    <form id="zipform">
+      <input id="zipcode" type="text" name="ZipCode" value="78759" placeholder="Zip Code">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="forecast">
+      <h2>Weather in <span id="city"></span> Right Now</h2>
+      <div class="temp">
+        Temerature: <span id="temp"></span> degrees
+      </div>
+      <p>
+        Sunrise: <span id="sunrise"></span><br>
+        Sunset: <span id="sunset"></span>
+      </p>
+      <p>Weather for Today: <span id="description"></span></p>
+      <p>
+        Latitude: <span id="lat"></span>
+        <br>
+        Longitude: <span id="lon"></span>
+      </p>
+      <img src="" alt="" id="weather-image"/>
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>

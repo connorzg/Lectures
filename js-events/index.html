@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Javascript Events</title>
+  <link rel="stylesheet" href="bootstrap.min.css" media="screen" title="no title">
+  <style media="screen">
+    .done {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Javascript Events</h1>
+    </div>
+    <button class="btn btn-primary btn-lg"><a class="clickable" href="#">Click Me</a></button><br>
+    <hr>
+    <button class="btn btn-primary btn-lg"><a class="clickable" href="#">Click Me Too I guess</a></button>
+
+      <br><hr>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#">Home</a></li>
+        <li class="list-group-item"><a href="#">About</a></li>
+        <li class="list-group-item">Contact</li>
+      </ul>
+
+      <ul>
+          <li>
+            Take out garbage
+            <a href="#" class="toggle-todo">Toggle Complete</a>
+            <a href="#" class="delete-todo">Delete</a>
+          </li>
+          <li>
+            Feed dog
+            <a href="#" class="toggle-todo">Toggle Complete</a>
+            <a href="#" class="delete-todo">Delete</a>
+          </li>
+        </ul>
+        <hr>
+        <div class="container">
+          <form id="theForm">
+            <input type="text" id="theField">
+            <input type="submit" value="New Todo">
+          </form>
+          <h1 id="theText"></h1>
+        </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="js/script.js">
+  </script>
+</body>
+
+</html>

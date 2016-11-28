@@ -1,0 +1,93 @@
+$blue: #A8D8DE;
+$grey: #233340;
+$sans-serif: Helvetica, sans-serif;
+
+@mixin large-text {
+  font-size: 45px;
+  font-family: monospace;
+  color: $blue;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+h1, h2 {
+  @include large-text;
+}
+
+h2 {
+  color: white;
+}
+
+body {
+  font-family: $sans-serif;
+  background-color: steelblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: $grey;
+  padding: 20px;
+  li {
+    background-color: white;
+    @include border-radius(5px);
+    padding: 15px;
+  }
+}
+
+.message {
+  background-color: $blue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  &:hover {
+    background-color: darken($blue, 50%);
+  }
+}
+
+.warning {
+  @extend .message;
+  background-color: lightyellow;
+}
+
+.success {
+  @extend .message;
+  background-color: lightgreen;
+}
+
+.error {
+  @extend .message;
+  background-color: red;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  a {
+  color: purple
+  }
+  ul {
+    list-style: none;
+  }
+}
+
+.social {
+  a{
+    color: brown;
+  }
+}
+
+button {
+  background-color: red;
+}

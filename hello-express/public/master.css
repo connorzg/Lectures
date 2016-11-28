@@ -1,0 +1,30 @@
+body {
+  font-family: helvetica;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #212121;
+  color: white;
+}
+
+p {
+  margin-bottom: 40px;
+}
+a {
+  color: #212121;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+a:hover {
+  color: red;
+}
+
+.container > {
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 100px;
+}

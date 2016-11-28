@@ -1,0 +1,23 @@
+#title {
+  margin: 25px 0;
+}
+
+input, select {
+  max-width: 30%;
+  display: inline;
+  margin: 10px;
+}
+
+h3 {
+  margin: 20px;
+}
+
+#joke {
+  font-weight: bold;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+li {
+  margin: 15px 0;
+}

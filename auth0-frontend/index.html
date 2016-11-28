@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auth0</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.auth0.com/js/lock/10.4/lock.min.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style media="screen">
+      .done {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome!</h1>
+    <button type="button" id="btn-login">Log In</button>
+    <div id="userinfo" style="display: none">
+      <h1 id="username"></h1>
+      <button type="button" id="btn-logout">Log Out</button>
+      <ul id="todos"></ul>
+    </div>
+  </body>
+</html>

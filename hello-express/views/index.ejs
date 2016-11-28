@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Intro to Express</h1>
+        <p>
+            <%= bottles %> Bottles of Beer on the Wall </p>
+
+        <% if (bottles > 0) { %>
+            <a href="/<%=next%>">Take one down, pass it around</a>
+            <% } else { %>
+                <a href="/">Start Over</a>
+                <% } %>
+    </div>
+
+</body>
+
+</html>

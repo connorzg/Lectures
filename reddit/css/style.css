@@ -1,0 +1,21 @@
+#snoo {
+  max-height: 45px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100px;
+  float: right;
+  max-height: 100px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 25px;
+}
